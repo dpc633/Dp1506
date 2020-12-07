@@ -1,13 +1,5 @@
-/*Schematic: https://www.electronoobs.com/images/Arduino/tut_41/finger_1.png
- * Tutorial: https://www.electronoobs.com/eng_arduino_tut41_sch1.php
-*/
-
-//Download it here: https://www.electronoobs.com/eng_arduino_adafruit_fingerprint.php
+//reference: -  https://www.electronoobs.com/eng_arduino_adafruit_fingerprint.php
 #include <Adafruit_Fingerprint.h> 
-//For Arduino UNO use pin #D2 from sensor (GREEN wire)
-// pin #D3 is OUT from arduino  (WHITE wire)
-//For Arduino MEGA use pin #D10 from sensor (GREEN wire)
-// pin #D11 is OUT from arduino  (WHITE wire)
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(2, 3);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
