@@ -58,7 +58,8 @@
 
 **Circuit diagram for better understanding**
 
-![](Readme.002.jpeg)
+![Only Circuit](https://user-images.githubusercontent.com/75510537/101417228-fde56180-38b0-11eb-8984-5fa4d0590c85.JPG)
+
 
 
 
